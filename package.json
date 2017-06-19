@@ -1,0 +1,27 @@
+{
+  "name": "@researchgate/babel-preset-rg",
+  "version": "1.0.0",
+  "description": "Babel preset for ResearchGate packages",
+  "main": "index.js",
+  "repository": "https://github.com/researchgate/babel-preset-rg.git",
+  "author": "Daniel Tschinder <daniel.tschinder@researchgate.net>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "babel-plugin-lodash": "^3.2.11",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-plugin-transform-react-jsx-self": "^6.22.0",
+    "babel-plugin-transform-react-jsx-source": "^6.22.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.8",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-hmre": "^1.1.1"
+  }
+}
