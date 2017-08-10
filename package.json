@@ -1,6 +1,6 @@
 {
   "name": "@researchgate/babel-preset-rg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Babel preset for ResearchGate packages",
   "main": "index.js",
   "repository": "https://github.com/researchgate/babel-preset-rg.git",
