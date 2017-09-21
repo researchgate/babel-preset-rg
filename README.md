@@ -1,4 +1,4 @@
-# babel-preset-rg [![npm](https://img.shields.io/npm/v/babel-preset-rg.svg)](https://www.npmjs.com/package/babel-preset-rg)
+# babel-preset-rg [![npm](https://img.shields.io/npm/v/@researchgate/babel-preset-rg.svg)](https://www.npmjs.com/package/@researchgate/babel-preset-rg)
 
 > Babel preset for ResearchGate
 
