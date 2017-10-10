@@ -32,7 +32,11 @@ module.exports = function(context, options) {
         options.env || {}
     );
 
-    const presets = [[require.resolve('babel-preset-env'), envOptions], require.resolve('babel-preset-react')];
+    const presets = [
+        [require.resolve('babel-preset-env'), envOptions],
+        require.resolve('babel-preset-flow'),
+        require.resolve('babel-preset-react'),
+    ];
 
     const plugins = [
         require.resolve('babel-plugin-transform-class-properties'),
