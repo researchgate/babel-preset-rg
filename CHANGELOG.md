@@ -14,3 +14,21 @@ All notable changes to this project will be documented in this file. See [standa
 ### BREAKING CHANGES
 
 * **dependencies:** This now requires babel 7
+
+
+<a name="1.0.1"></a>
+# [1.0.1](https://github.com/researchgate/babel-preset-rg/compare/v1.0.0...v1.0.1) (2017-08-10)
+
+
+### Bug Fixes
+
+* Fix syntax error
+
+
+<a name="1.0.0"></a>
+# 1.0.0 (2017-08-10)
+
+
+### Features
+
+* Initial release
