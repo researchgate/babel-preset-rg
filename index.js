@@ -33,15 +33,21 @@ module.exports = function(context, options) {
     );
 
     const presets = [
-        [require.resolve('babel-preset-env'), envOptions],
-        require.resolve('babel-preset-flow'),
-        require.resolve('babel-preset-react'),
+        [require.resolve('@babel/preset-env'), envOptions],
+        require.resolve('@babel/preset-flow'),
+        [
+            require.resolve('@babel/preset-react'),
+            {
+                development: env === 'development',
+                useBuiltIns: true,
+            },
+        ],
     ];
 
     const plugins = [
-        require.resolve('babel-plugin-transform-class-properties'),
+        require.resolve('@babel/plugin-proposal-class-properties'),
         [
-            require.resolve('babel-plugin-transform-object-rest-spread'),
+            require.resolve('@babel/plugin-proposal-object-rest-spread'),
             {
                 useBuiltIns: true,
             },
@@ -53,19 +59,9 @@ module.exports = function(context, options) {
                 mode: 'unsafe-wrap',
             },
         ],
-        [
-            require.resolve('babel-plugin-transform-react-jsx'),
-            {
-                useBuiltIns: true,
-            },
-        ],
     ];
 
     if (env === 'development') {
-        plugins.push.apply(plugins, [
-            require.resolve('babel-plugin-transform-react-jsx-source'),
-            require.resolve('babel-plugin-transform-react-jsx-self'),
-        ]);
         presets.push(require.resolve('babel-preset-react-hmre'));
     }
 
