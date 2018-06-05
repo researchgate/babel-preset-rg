@@ -61,10 +61,6 @@ module.exports = function(context, options) {
         ],
     ];
 
-    if (env === 'development') {
-        presets.push(require.resolve('babel-preset-react-hmre'));
-    }
-
     return {
         presets: presets,
         plugins: plugins,
