@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.0-beta.2"></a>
+# [2.0.0-beta.2](https://github.com/researchgate/babel-preset-rg/compare/v2.0.0-beta.1...v2.0.0-beta.2) (2018-06-05)
+
+
+### Bug Fixes
+
+* **hot:** Remove babel plugin for hot reloading ([ce5449a](https://github.com/researchgate/babel-preset-rg/commit/ce5449a))
+
+
+### BREAKING CHANGES
+
+* **hot:** Remove babel-preset-react-hmre as not needed anymore with webpack 4
+
+
+
 <a name="2.0.0-beta.1"></a>
 # [2.0.0-beta.1](https://github.com/researchgate/babel-preset-rg/compare/v2.0.0-beta.0...v2.0.0-beta.1) (2017-12-16)
 
