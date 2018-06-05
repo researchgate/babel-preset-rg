@@ -62,7 +62,9 @@ module.exports = function(context, options) {
             require.resolve('babel-plugin-transform-react-jsx-source'),
             require.resolve('babel-plugin-transform-react-jsx-self'),
         ]);
-        presets.push(require.resolve('babel-preset-react-hmre'));
+        if(options.hot !== false) {
+            presets.push(require.resolve('babel-preset-react-hmre'));
+        }
     }
 
     return {
