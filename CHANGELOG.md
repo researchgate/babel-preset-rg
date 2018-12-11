@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="3.0.0"></a>
+# [3.0.0](https://github.com/researchgate/babel-preset-rg/compare/v2.0.0...v3.0.0) (2018-12-11)
+
+
+### Features
+
+* **deps:** Upgrade all dependencies to most recent ([c7dfe65](https://github.com/researchgate/babel-preset-rg/commit/c7dfe65))
+
+
+### BREAKING CHANGES
+
+* **deps:** remove babel support for flow type
+
+
+
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/researchgate/babel-preset-rg/compare/v2.0.0-beta.2...v2.0.0) (2018-08-28)
 
