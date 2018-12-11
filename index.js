@@ -34,7 +34,6 @@ module.exports = function(context, options) {
 
     const presets = [
         [require.resolve('@babel/preset-env'), envOptions],
-        require.resolve('@babel/preset-flow'),
         [
             require.resolve('@babel/preset-react'),
             {
